@@ -215,6 +215,7 @@ public class MainActivity extends FragmentActivity implements
         
         try {
             SmsManager smsManager = SmsManager.getDefault();
+            
             // 4125353930 is my phone number (Yu Zhang).
             sms.sendTextMessage("+14125353930", null, location, null, null);
             
